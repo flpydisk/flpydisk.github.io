@@ -1,27 +1,27 @@
 #السطر التالي إسم الموقع
-title:            ثيم hpstr
+title:            فلوبي ديسك
 #السطر التالي وصف الموقع
-description:      ثيم hpstrصناعة Michael Rose و تعريب عبدالرحمن العمودي 
+description: مجموعة شباب بمختلف المهارات نهدف لاثراء المحتوى العربي التقني.
 #السطر التالي إسم المستخدم الخاص للربط بموقع التعليقات المجاني - ديسقوس
-disqus_shortname: jekyllarabicthemes
+disqus_shortname: flpydisk
 #السطر التالي تفعيل خيار الوقت المستغرق للقراءة
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:			  http://bomkarram.github.io/jekyll-arabic-theme-hpstr
+url:			  http://flpydisk.com
 
 # Owner/author information
-owner:
-  name:           هنا إسم الموقع أو مالكه
-  avatar:         avatar.jpg
-  bio:            "هنا يكتب نبذه قصيرة عن الموقع أو مالكه."
+owner:  
+  name:           فلوبي ديسك
+  avatar:         logo.png
+  bio:             مجموعة شباب بمختلف المهارات نهدف لاثراء المحتوى العربي التقني.
   #email:
   # Social networking links used in footer. Update and remove as you like.
-  #youtube:
+  youtube:  https://www.youtube.com/channel/UC4V8Q3GkhcUs1Wwu8p07GmQ
   #twitter:        
   #facebook:       
-  github:         flpydisk/jekyll-arabic-theme-hpstr
+  github:         flpydisk
   #stackexchange:  
   #linkedin:       
   #instagram:      

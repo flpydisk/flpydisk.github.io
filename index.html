@@ -5,7 +5,7 @@ description: "شباب بمختلف المهارات نهدف لاثراء ال�
 tags: [يوتيوب, تطوير الويب, ألعاب, مراجعات, مشاريع, دروس]
 comments: false
 image:
-  feature: abstract-1.jpg
+  feature: https://raw.githubusercontent.com/flpydisk/flpydisk.github.io/master/images/abstract-1.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
@@ -15,7 +15,7 @@ image:
   <header>
     {% if post.image.feature %}
       <div class="entry-image-index">
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.feature }}" alt="{{ post.title }}"></a>
       </div><!-- /.entry-image -->
     {% endif %}
     <div class="entry-meta">
