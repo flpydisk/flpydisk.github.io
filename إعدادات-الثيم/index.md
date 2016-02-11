@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Theme Setup
-description: "Instructions on how to install and customize the modern Jekyll theme HPSTR."
+title: إعدادات الثيم
+description: "طريقة تثبيت و تخصيص ثيم HPSTR."
 image:
   feature: abstract-11.jpg
   credit: dargadgetz
@@ -9,22 +9,22 @@ image:
 share: true
 ---
 
-General notes and suggestions for customizing **HPSTR**.
+ملاحظات و اقتراحات لتخصيص ثيم **HPSTR**.
 
 HPSTR now requires [Jekyll](http://jekyllrb.com/) 3.0. Make sure to run `bundle update` if you aren't on the latest version to update all gem dependencies.
 
-## Basic Setup for a new Jekyll site
+## الخطوات الاساسية لإنشاء موقع Jekyll جديد.
 
-1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
-2. Fork the [HPSTR Jekyll Theme repo](https://github.com/mmistakes/hpstr-jekyll-theme/fork).
-3. Clone the repo you just forked and rename it.
-4. Edit `_config.yml` to personalize your site.
-5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
-6. Read the documentation below for further customization pointers and documentation.
+1. [ثبت Bundler](http://bundler.io) عن طريق الامر `gem install bundler` و ثبت أيضا [Jekyll](http://jekyllrb.com) و ثبت أيضا جميع الملحقات عن طريق الامر `bundle install`.
+2. عن طريق خاصية Fork في Github إنسخ الثيم من مخزنه الى مخزنك الجديد [HPSTR Jekyll Theme repo](https://github.com/flpydisk/jekyll-arabic-theme-hpstr/fork).
+3. زامن مخزنك و عدل إسمه.
+4. عدل في ملف `_config.yml` لتخصيص موقعك.
+5. راجع عينات الموضوع الموضوعة في مسار `_posts` لترى أمثلة على إضافة صورة كبيرة في أعلى الموضوع أو إضافة تصنيفات أو تاقات للموضوعات و غيرها من  الخصائص التي يمكن تعديلها على أعلى الملف في الجزئية المسماه YAML.
+6. إقرأ المرجع في الاسفل لمزيد من التخصيص.
 
-<div markdown="0"><a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn">Download the Theme</a></div>
+<div markdown="0"><a href="https://github.com/flpydisk/jekyll-arabic-theme-hpstr/archive/gh-pages.zip" class="btn">حمل الثيم</a></div>
 
-**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
+**نصيحة محترفين:**إحذف  `gh-pages` branch بعد المزامنة و إبدأ بـ branch جديد تحت إسم `master`. هناك الكثير من الملفات الغير مهمة في `gh-pages` مستخدمة للعرض الاولي فقط و أظن أنك لا تريدها.
 {: .notice}
 
 ---
@@ -33,7 +33,7 @@ HPSTR now requires [Jekyll](http://jekyllrb.com/) 3.0. Make sure to run `bundle 
 
 1. Clone the following folders: `_includes`, `_layouts`, `_sass`, `assets`, and `images`.
 2. Clone the following folders/files and personalize content as need: `about/`, `posts/`, `tags/`, `feed.xml` and `index.html`.
-3. Edit `_config.yml` to personalize your site.
+
 
 ---
 
@@ -248,7 +248,7 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). So feel free to to modify this theme to suit your needs.
+This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs.
 
 ---
 
