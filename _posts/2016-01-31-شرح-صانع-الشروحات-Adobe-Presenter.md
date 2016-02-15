@@ -13,6 +13,8 @@ image:
   credit:
   creditlink:
 link:
+author: Abdulrahman_Alamoudi
+
 ---
 
 ## تعريف بالبرنامج
