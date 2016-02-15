@@ -48,7 +48,7 @@
 
         {% if page.author %}
         {% assign author = site.data.authors[page.author] %}
-            <span class="author vcard"><span class="fn"><a href="{{ site.url }}{{ author.preferred_contact }}" title="تواصل مع {{ author.name }}">{{ author.name }}</a></span></span>
+            <span class="author vcard"><span class="fn"><a href="{{ author.preferred_contact }}" title="تواصل مع {{ author.name }}">{{ author.name }}</a></span></span>
         {% endif %}
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
