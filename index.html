@@ -18,11 +18,11 @@ image:
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.feature }}" alt="{{ post.title }}"></a>
       </div><!-- /.entry-image -->
     {% endif %}
-    <div class="entry-meta">      
+    <div class="entry-meta">
       <span class="fn"><a>أنشئ في </a></span><span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }}</a></time></span>
     {% if post.author %}
         {% assign author = site.data.authors[post.author] %}
-        <span class="author vcard"><span class="fn"><a href="{{ site.url }}{{ author.preferred_contact }}" title="تواصل مع {{ author.name }}">{{ author.name }}</a></span></span>
+        <span class="author vcard"><span class="fn"><a href="{{ author.preferred_contact }}" title="تواصل مع {{ author.name }}">{{ author.name }}</a></span></span>
     {% endif %}
       {% if site.reading_time %}
       <span class="entry-reading-time">
